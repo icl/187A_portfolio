@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>A Generic Page</title>
+    <title>A Generic Project Page</title>
     <meta name="description" content="something good should go here">
     <meta name="author" content="your name should go here">
 
@@ -11,22 +11,50 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- Base Stylsheets -->
+    <!-- Base Stylsheets http://twitter.github.com/bootstrap/ -->
     <link rel="stylesheet" href="../stylesheets/lib/bootstrap.css" >
+    <link rel="stylesheet" href="../stylesheets/lib/jquery.fancybox.css" >
 
-	<!-- Your Stylesheets -->
-	<link rel="stylesheet" href="../stylesheets/main.css" >
 
-	<!-- Base Javascripts -->
+    <!-- Your Stylesheets -->
+    <link rel="stylesheet" href="../stylesheets/main.css" >
+
+    <!-- Base Javascripts -->
     <script src="../javascripts/lib/base.js"></script>
 
-	<!-- Your Javascripts -->
+    <!-- Fancybox Lightbox http://fancyapps.com/fancybox/#examples -->
+    <script src="../javascripts/lib/jquery.fancybox.js"></script>
+
+
+    <!-- Your Javascripts -->
     <script src="../javascripts/main.js"></script>
   </head>
 
   <body>
     <div class="container">
-		PUT STUFF HERE
-    </div>
+
+      <div class="row">
+
+        <div class="span2">
+          WRITE
+        </div>
+
+        <div class="span2">
+          ABOUT
+        </div>
+
+        <div class="span2">
+          A PROJECT
+        </div>
+
+        <div class="span10">
+          <h2>Example Image Gallery</h2>
+          <a class="fancybox" href="../images/187.jpg" data-fancybox-group="gallery" title="COGS 187"><img src="../images/187.jpg" alt="COGS187" /></a>
+          <a class="fancybox" href="../images/187.jpg" data-fancybox-group="gallery" title="COGS 187"><img src="../images/187.jpg" alt="COGS187" /></a>
+        </div>
+
+      </div> <!-- end row -->
+
+    </div> <!-- end container -->
   </body>
 </html>
